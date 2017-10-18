@@ -1,4 +1,8 @@
-@import "compass";
+/*
+Author: Dariusz Markowiczz
+*/
+//@import "compass";
+@import "compass/utilities/sprites/sprite-img";
 
 @import "pngfiles/*.png";
 @import "_font.scss";
@@ -11,7 +15,7 @@
 @import "_video-bg.scss";
 @import "_cursorText.scss";
 
-
+//$debug-browser-support: true;
 
 $pngfiles-sprite-dimensions: true;
 @include all-pngfiles-sprites;
