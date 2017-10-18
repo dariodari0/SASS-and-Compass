@@ -1,3 +1,6 @@
+@import "compass/css3/transition";
+
+
 .subCointainer h2, p
 {
 	position: relative;
@@ -7,10 +10,12 @@
 .subCointainer a, footer a
 {
     border-bottom: 1px solid $color-white;
-}
-.subCointainer a:hover, footer a:hover
-{
+    @include single-transition(border-width, .1s, ease-out);
+    &:hover
+    {
+        
 	border-bottom: 4px solid  $color-white;
+    }
 }
 .aboutME, .skills, .hobby, .experience, .education, .qualifications
 {
