@@ -1,0 +1,15 @@
+ header
+{
+	position: relative;
+}	
+h1
+ {
+ 	position: absolute;
+ 	text-align: center;
+ 	width: 50%;
+ 	margin-left: 25% ;
+ 	margin-top: 15%;
+ 	font-size: $fontSize-vw * 2;
+ 	color:  $color-white-alpha;
+ 	border: $color-white-alpha 4px solid ;
+ }

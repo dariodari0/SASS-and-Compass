@@ -1,0 +1,82 @@
+.overlay
+{
+	position: fixed ;
+	top: 0 ;
+	right: 0 ;
+	bottom: 0 ;
+	left: 0 ;
+	display: none ;
+}
+.blur
+{
+    @include filter(blur(10px)); 
+     margin: -1%;
+}
+.blur-svg
+{
+        display: none;
+}
+.contactPage
+{
+	position: fixed;
+ 	z-index: 2 ;
+}
+.contactForm 
+{
+	width: 50%;
+	height: 55%;
+	margin-left: 25%;
+	margin-top: 12.5%;
+	display: none ;
+}
+ .contactForm input
+ {
+        @include input-placeholder {
+            color: $color-white;
+        }
+        &:focus
+        {
+            @include input-placeholder {
+            color: transparent;
+        }
+        }
+    }
+.contactForm input, .contactForm textarea
+{
+	padding: 1% 0% 1% 2%;
+	margin-top: -1px;
+	color: $color-white;
+	font-size: $fontSize-vw - 0.5 ;
+	width: 100%;
+	background: rgba(0,0,0, 0.15) ;
+ 	border: none;  
+}
+input:focus { 
+	outline-color: $color-white;
+}
+textarea:focus { 
+ 	outline-color: $color-white;
+}
+ 
+.contactForm input[type=submit]
+{	
+ 	margin-top: -5px;
+ 	width: 102%;
+}
+
+.contactForm textarea 
+{
+	height: 12rem ;
+	border-bottom: none;
+}
+.contactForm input:hover, .contactForm textarea:hover
+{
+	background-color: $color-white-alpha;
+}
+ .contactMore 
+{
+ 	position: fixed;
+ 	bottom: 4%;
+ 	right: 4%; 
+ 	display: none;
+}

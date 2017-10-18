@@ -1,0 +1,8 @@
+#cursorText
+{
+    @include animation(flash 1s infinite);
+}
+@include keyframes(flash)
+{
+    to{opacity: .0;}
+}

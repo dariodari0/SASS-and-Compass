@@ -1,0 +1,66 @@
+.subCointainer h2, p
+{
+	position: relative;
+	width: 55%;
+	left: 22.5%;
+}
+.subCointainer a, footer a
+{
+    border-bottom: 1px solid $color-white;
+}
+.subCointainer a:hover, footer a:hover
+{
+	border-bottom: 4px solid  $color-white;
+}
+.aboutME, .skills, .hobby, .experience, .education, .qualifications
+{
+	padding: 5%;
+	height: auto;
+	font-size: $fontSize-vw;
+	color: 	$color-white-alpha;
+        box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+hr
+{
+	width: 55%;
+	border: 1px $color-white solid;
+}
+.aboutME
+{
+	margin-top: 55%;
+	background-color: $color-aboutME-bg;	
+}
+.skills
+{
+	background-color: $color-skills-bg;
+}
+.hobby
+{
+	background-color: $color-hobby-bg;
+}
+.experience
+{
+	background-color: $color-experience-bg;
+}
+.education
+{
+	background-color: $color-education-bg;
+}
+.qualifications
+{
+	background-color: $color-qualifications-bg;
+}
+.simpleParalax
+{
+	padding: 16% 0 16% 0;
+}
+footer 
+{
+	font-size: $fontSize-vw - 0.1;
+	padding: 2%;
+	color: $color-white-alpha;
+}
+footer a
+{
+	float: right;
+}
